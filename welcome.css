@@ -163,3 +163,92 @@ body{
 #corps{
 	font-family: Roboto condensed , Open sans;
 }
+#barry{
+  display: inline;
+
+}
+#da h1{
+  list-style-type: none;
+  margin-left:6%;
+  padding:10px;
+  overflow: hidden;
+  word-spacing:3px;
+  text-align: left;
+  color: black;
+  float: left;
+  text-decoration: none;
+}
+#ca h1{
+  list-style-type: none;
+  margin-left:6%;
+  padding:10px;
+  overflow: hidden; 
+  word-spacing:3px;
+  text-align: center;
+  color: #c90017;
+  float:left;
+  text-decoration: none;
+}
+#pa h1{
+  list-style-type: none;
+  overflow: hidden;
+  margin-left:6%;  
+  word-spacing:3px;
+  text-align:right;
+  color: black;
+  float:left;
+  text-decoration: none;
+}
+#e h1{
+  list-style-type: none;
+  overflow: hidden;
+  margin-left:6%; 
+  word-spacing:3px;
+  text-align: right;
+  color:black;
+  float:left;
+  text-decoration: none;
+
+}
+#dev{
+   list-style-type: none;
+   overflow: hidden;
+   margin-left:0%;
+   text-align: left;
+   float: left;
+   text-decoration: none; 
+
+}
+#ka{
+  color: #c90017;
+}
+#ba{
+  float: right;
+  margin-right:0% ;
+  text-align:right;
+  text-decoration: none;
+}
+#ri{
+  color: #c90017;
+}
+#fa{
+  float: right;
+}
+#ma{
+  color: #c90017;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
