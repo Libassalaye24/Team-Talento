@@ -9,7 +9,8 @@
 	    <script src="sliderengine/amazingslider.js"></script>
 	    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
 	    <script src="sliderengine/initslider-1.js"></script>
-	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src = 'https://js.arcgis.com/4.18'></script>
 	</head>
 	<body> 
 		<header>
@@ -17,31 +18,20 @@
 				<img src="images/logo.png" alt="logo.png">
 			</div>
 			<div class="topnav" id="myTopnav">
-				  <a href="#text" class="active">Accueil</a>
+				  <a href="#text">Accueil</a>
 				  <a href="#">Formations</a>
 				  <a href="#">Contacts</a>
 				  <a href="#">Newsletter</a>
-				  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-				    <i class="fa fa-bars"></i>
-				  </a>
+				  
 			</div>
-				<script>			
-					function myFunction() {
-					  var x = document.getElementById("myTopnav");
-					  if (x.className === "topnav") {
-					    x.className += " responsive";
-					  } else {
-					    x.className = "topnav";
-					  }
-					}
-				</script>
+				
 		</header>
 
-			<div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1500px;margin:0px auto 56px;margin-top: 8%;">
+			<div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1990px;margin:0px auto 56px;margin-top: 8%;">
         <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
                 <li><img src="img/pexels-christina-morillo-1181414.jpg" alt="BIENVENUE A TECH 221.
-Ecole de formation professionnelle"  title="BIENVENUE A TECH 221. <br>
+Ecole de formation professionnelle"  title="BIENVENUE A TECH 221.</br>
 Ecole de formation professionnelle" data-texteffect="Center text" />
 <a href=""><button  class="amazingsliderbutton as-btn-blue-medium" style="color: #C90017;background-color: #AD8B3A; height: 50px;">En savoir plus</button></a>
                 </li>
@@ -68,25 +58,25 @@ Ecole de formation professionnelle" /></li>
     </div>
     	<div id="corps">
 	    	<div class="rj">
-	    		<h2>Rejoigner notre aventure</h2>
+	    		<h2>Rejoigner notre aventure!</h2>
 	    		<p>Entrez dans l’univers informatique en travaillant sur des projets réels. Notre vision: l’accessibilité au numérique, la transversalité à travers des projets, l’employabilité après votre formation et l’adaptabilité à votre environnement de travail.</p>
 	    	</div>
 
 	    	<div id="text">
 	    		<div id="t1">
-					<div><img src="img/raison.PNG" alt="raison.PNG"></div>
+					<div><img src="img/raison.png" alt="raison.png"></div>
 	    			<h2 id="rs">Raisons d'Existence</h2>
 	    			<p>Tech 221 est une école de formation supérieure en Informatique. Son approche pédagogique diffère des autres écoles de formation actuelles au Sénégal. L’école combine une pédagogie magistrale et une pédagogie active basée sur une approche par compétence où l’apprenant
 					    est au centre de sa formation.
 	 			    
 	 			</div>
 	 			<div id="t2">
-					<div><img src="img/ambbition.PNG" alt="ambbition.PNG"></div>
+					<div><img src="img/ambbition.png" alt="ambbition.png"></div>
 	    			<h2 id="rs">Ambitions</h2>
 	    			<p>La base de l’apprentissage à Tech 221 est le travail d’équipe . Chaque apprenant est à la fois receveur et donneur de savoir et sera amené à être confronté aux autres, échanger, apprendre d’eux. Une fois que l’un d’eux a acquis une compétence, il la partage avec les membres de son équipe.</p>
 	 			</div>
 	 			<div id="t3">
-					<div><img src="img/objectif.PNG" alt="objectif.PNG"></div>
+					<div><img src="img/objectif.png" alt="objectif.png"></div>
 	    			<h2 id="rs">Objectifs</h2>
 	    			<p>Notre devise est “APPRENDRE AVEC LES AUTRES… PAR LES AUTRES“. Chaque étudiant est considéré comme un apprenant et un  formateur . C’est tout naturellement que les étudiants auront la possibilité de soumettre leurs projets aux autres. Peu importe que le projet vient d’une compétence informatique.</p>
 	 			</div>
@@ -147,16 +137,35 @@ Ecole de formation professionnelle" /></li>
 			<div id="formateurs">
 				<div id="titre"><h3>Nos formateurs</h3></div>
 				<div class="bloc1">
-					<div class="image"><img src="img/img6.PNG" alt="img6.PNG"><p id="p1">Mr NDIAYE <br>Formateur en design</p></div>
-					<div class="image"><img src="img/img2.PNG" alt="img2.PNG"><p id="p1">Mr DIOP <br>Formateur en Marketing</p></div>
-					<div class="image"><img src="img/img1.PNG" alt="img3.PNG"><p id="p1">Mr WELLE <br>Ingenieur informaticien</p></div>
+					<div class="image"><img src="img/img6.png" alt="img6.png"><p id="p1"> <b>Mr NDIAYE</b> <br>Formateur en design</p></div>
+					<div class="image"><img src="img/img2.png" alt="img2.png"><p id="p1"><b>Mr DIOP</b> <br>Formateur en Marketing</p></div>
+					<div class="image"><img src="img/img1.png" alt="img3.png"><p id="p1"><b>Mr WELLE</b> <br>Ingenieur informaticien</p></div>
 				</div>
 				<div class="bloc2">
-					<div class="image"><img src="img/im4.PNG" alt="img4.PNG"><p id="p1">Mr MANGANE <br>Data scientist</p></div>
-					<div class="image"><img src="img/img3.PNG" alt="img3.PNG"><p id="p1">Mr DIALLO <br>Formateur en design</p></div>
-					<div class="image"><img src="img/img5.PNG" alt="img5.PNG"><p id="p1">Mr CISS <br>Formateur en Dev web</p></div>
+					<div class="image"><img src="img/im4.png" alt="img4.png"><p id="p1"><b>Mr MANGANE </b></b><br>Data scientist</p></div>
+					<div class="image"><img src="img/img3.png" alt="img3.png"><p id="p1"><b>Mr DIALLO</b> <br>Formateur en design</p></div>
+					<div class="image"><img src="img/img5.png" alt="img5.png"><p id="p1"><b>Mr CISS </b><br>Formateur en Dev web</p></div>
 				</div>
 			</div>
 		</div>
+
+		<div class="Contacts">
+			 <b><p id="titi">Contacts <br>N'hésitez pas à nous contacter</p></b>
+			<div id="formulaire">
+				<b><p>Contactez-nous</p></b>
+			
+					<label for="nom">Nom et Prénom*</label><br>
+					<textarea type="text" name="Nom" placeholder="Nom et Prénom" id="" cols="80"></textarea><br> 
+					<label for="mail">E-mail*</E-mail></label><br>
+					<textarea type="mail" name="mail" placeholder="Adresse email" id="" cols="80"></textarea> <br> 
+					<label for="text">Message*</label><br>
+					<div id="message"><textarea type="text" name="Message" placeholder="Message" id="" cols="80" rows="10"></textarea></div> <br>
+					<input class="submit" cols="30" type="submit" name="envoyer">
+			</div>
+			
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2063.060179021017!2d-17.450679463344503!3d14.71573898293935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x504d9e7bb5384f5a!2sEcole%20221!5e0!3m2!1sfr!2ssn!4v1615649459235!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			
+		</div>
+
 	</body>
 </html>
